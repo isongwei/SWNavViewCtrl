@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		0F8B14432CD5BE0F56364701F4AFED32 /* SWNavViewCtrl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 895EEFC86A026DAA0423690150D1193C /* SWNavViewCtrl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2672B2AC1F64E87400DE695A /* SWNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2672B2A81F64E87400DE695A /* SWNavigationController.h */; };
+		2672B2AD1F64E87400DE695A /* SWNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2672B2A81F64E87400DE695A /* SWNavigationController.h */; };
+		2672B2AE1F64E87400DE695A /* SWNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2672B2A81F64E87400DE695A /* SWNavigationController.h */; };
+		2672B2AF1F64E87400DE695A /* SWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2672B2A91F64E87400DE695A /* SWNavigationController.m */; };
+		2672B2B01F64E87400DE695A /* SWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2672B2A91F64E87400DE695A /* SWNavigationController.m */; };
+		2672B2B11F64E87400DE695A /* SWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2672B2A91F64E87400DE695A /* SWNavigationController.m */; };
+		2672B2B21F64E87400DE695A /* UIViewController+SWNavigationExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2672B2AA1F64E87400DE695A /* UIViewController+SWNavigationExtension.h */; };
+		2672B2B31F64E87400DE695A /* UIViewController+SWNavigationExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2672B2AA1F64E87400DE695A /* UIViewController+SWNavigationExtension.h */; };
+		2672B2B41F64E87400DE695A /* UIViewController+SWNavigationExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2672B2AA1F64E87400DE695A /* UIViewController+SWNavigationExtension.h */; };
+		2672B2B51F64E87400DE695A /* UIViewController+SWNavigationExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2672B2AB1F64E87400DE695A /* UIViewController+SWNavigationExtension.m */; };
+		2672B2B61F64E87400DE695A /* UIViewController+SWNavigationExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2672B2AB1F64E87400DE695A /* UIViewController+SWNavigationExtension.m */; };
+		2672B2B71F64E87400DE695A /* UIViewController+SWNavigationExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2672B2AB1F64E87400DE695A /* UIViewController+SWNavigationExtension.m */; };
 		2C2B71F05ACF59B3EF4097F003F9153E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		2D8DAE183B91AA14EEBB4C2102202BEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		301AFC4F678E6B3288FE8BEB0E86767C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -15,7 +27,6 @@
 		746A8F0FE5C2A643B199FBC7E2070232 /* SWNavViewCtrl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D9306FD272C79764FC70F4F6CCAF98 /* SWNavViewCtrl-dummy.m */; };
 		9985AE9DA9FB7165AD734E49C700EC15 /* Pods-SWNavViewCtrl_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 985583F329CB2FC7746977A0368C1949 /* Pods-SWNavViewCtrl_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A203584FB00582BBF137290563831106 /* Pods-SWNavViewCtrl_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC13BEE8B792288402895B613A69E3FC /* Pods-SWNavViewCtrl_Example-dummy.m */; };
-		A660D49603A2DBF6BE139E0AEBB6F212 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CC571868430E109DB4146EE66A125613 /* ReplaceMe.m */; };
 		A6AA59CF6639BDF98C22A0548F5467F3 /* Pods-SWNavViewCtrl_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D62D593A32D1094E96E3AEB62B2A943 /* Pods-SWNavViewCtrl_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +44,12 @@
 		0C1A47AC81FAF8CCE62019D6D41EC5F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D62D593A32D1094E96E3AEB62B2A943 /* Pods-SWNavViewCtrl_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SWNavViewCtrl_Tests-dummy.m"; sourceTree = "<group>"; };
 		266A86A569000BC15A60DACBF6FB48A3 /* Pods-SWNavViewCtrl_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SWNavViewCtrl_Tests-resources.sh"; sourceTree = "<group>"; };
+		2672B2A61F64E87400DE695A /* backImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backImage@2x.png"; sourceTree = "<group>"; };
+		2672B2A71F64E87400DE695A /* backImage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backImage@3x.png"; sourceTree = "<group>"; };
+		2672B2A81F64E87400DE695A /* SWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWNavigationController.h; sourceTree = "<group>"; };
+		2672B2A91F64E87400DE695A /* SWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWNavigationController.m; sourceTree = "<group>"; };
+		2672B2AA1F64E87400DE695A /* UIViewController+SWNavigationExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SWNavigationExtension.h"; sourceTree = "<group>"; };
+		2672B2AB1F64E87400DE695A /* UIViewController+SWNavigationExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SWNavigationExtension.m"; sourceTree = "<group>"; };
 		2D574737A4498AC07398935E6D02424C /* Pods-SWNavViewCtrl_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SWNavViewCtrl_Example-resources.sh"; sourceTree = "<group>"; };
 		366296E147A80754295E006117AB830C /* Pods-SWNavViewCtrl_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SWNavViewCtrl_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		38D9306FD272C79764FC70F4F6CCAF98 /* SWNavViewCtrl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWNavViewCtrl-dummy.m"; sourceTree = "<group>"; };
@@ -44,23 +61,22 @@
 		61F6834E161F9260972B14816E3B26CF /* Pods-SWNavViewCtrl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SWNavViewCtrl_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		63CAFB563CECDA7FB5E2008315C9213E /* Pods-SWNavViewCtrl_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SWNavViewCtrl_Example-umbrella.h"; sourceTree = "<group>"; };
 		6492AAA1E371B16D1019D126CE4C1D1C /* Pods-SWNavViewCtrl_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SWNavViewCtrl_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		64F55EC78908E4AE1E976364D94E08E2 /* Pods-SWNavViewCtrl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SWNavViewCtrl_Example.modulemap"; sourceTree = "<group>"; };
+		64F55EC78908E4AE1E976364D94E08E2 /* Pods-SWNavViewCtrl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SWNavViewCtrl_Example.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7D82C167D21DD3E0A6C6B6A570B66CF7 /* Pods-SWNavViewCtrl_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SWNavViewCtrl_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		895EEFC86A026DAA0423690150D1193C /* SWNavViewCtrl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWNavViewCtrl-umbrella.h"; sourceTree = "<group>"; };
 		9179A95D188AA19E8AC1C0D483F8BF38 /* SWNavViewCtrl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWNavViewCtrl.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		985583F329CB2FC7746977A0368C1949 /* Pods-SWNavViewCtrl_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SWNavViewCtrl_Tests-umbrella.h"; sourceTree = "<group>"; };
 		99DA760A889C7C964015CDC237F47080 /* Pods-SWNavViewCtrl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SWNavViewCtrl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A4BBC4F2FE67B18B3F14A526C374ABE5 /* Pods_SWNavViewCtrl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SWNavViewCtrl_Tests.framework; path = "Pods-SWNavViewCtrl_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A730540816AC5F1CE3AF69BE5823D254 /* SWNavViewCtrl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SWNavViewCtrl.modulemap; sourceTree = "<group>"; };
+		A4BBC4F2FE67B18B3F14A526C374ABE5 /* Pods_SWNavViewCtrl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWNavViewCtrl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A730540816AC5F1CE3AF69BE5823D254 /* SWNavViewCtrl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SWNavViewCtrl.modulemap; sourceTree = "<group>"; };
 		AC13BEE8B792288402895B613A69E3FC /* Pods-SWNavViewCtrl_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SWNavViewCtrl_Example-dummy.m"; sourceTree = "<group>"; };
 		AE3F27FF8C6B7F1BA33F7A8DB31AE693 /* Pods-SWNavViewCtrl_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SWNavViewCtrl_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CC571868430E109DB4146EE66A125613 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		D6639CA1F8C683F35C76C0B9BE94B9CA /* Pods_SWNavViewCtrl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SWNavViewCtrl_Example.framework; path = "Pods-SWNavViewCtrl_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E34BA4698E1A99E92AE6F6703099338A /* SWNavViewCtrl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SWNavViewCtrl.framework; path = SWNavViewCtrl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6639CA1F8C683F35C76C0B9BE94B9CA /* Pods_SWNavViewCtrl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWNavViewCtrl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E34BA4698E1A99E92AE6F6703099338A /* SWNavViewCtrl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWNavViewCtrl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB1666C87BF82EC5F2D18A5CA7F5C2D1 /* Pods-SWNavViewCtrl_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SWNavViewCtrl_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F14F1B504AC3B72ABC364FF70AAD7FD6 /* Pods-SWNavViewCtrl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SWNavViewCtrl_Tests.modulemap"; sourceTree = "<group>"; };
+		F14F1B504AC3B72ABC364FF70AAD7FD6 /* Pods-SWNavViewCtrl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SWNavViewCtrl_Tests.modulemap"; sourceTree = "<group>"; };
 		F155F684722F2D4B85E8ED2DBA6C8127 /* SWNavViewCtrl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWNavViewCtrl-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -152,9 +168,13 @@
 		9423F8EAA660F9F49A37F300C4AB298A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				CC571868430E109DB4146EE66A125613 /* ReplaceMe.m */,
+				2672B2A61F64E87400DE695A /* backImage@2x.png */,
+				2672B2A71F64E87400DE695A /* backImage@3x.png */,
+				2672B2A81F64E87400DE695A /* SWNavigationController.h */,
+				2672B2A91F64E87400DE695A /* SWNavigationController.m */,
+				2672B2AA1F64E87400DE695A /* UIViewController+SWNavigationExtension.h */,
+				2672B2AB1F64E87400DE695A /* UIViewController+SWNavigationExtension.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -202,7 +222,6 @@
 			children = (
 				9423F8EAA660F9F49A37F300C4AB298A /* Classes */,
 			);
-			name = SWNavViewCtrl;
 			path = SWNavViewCtrl;
 			sourceTree = "<group>";
 		};
@@ -231,7 +250,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2672B2AC1F64E87400DE695A /* SWNavigationController.h in Headers */,
 				3A03AC5E12E52A9FC40CECBE5EE572B6 /* Pods-SWNavViewCtrl_Example-umbrella.h in Headers */,
+				2672B2B21F64E87400DE695A /* UIViewController+SWNavigationExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +260,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2672B2AE1F64E87400DE695A /* SWNavigationController.h in Headers */,
 				0F8B14432CD5BE0F56364701F4AFED32 /* SWNavViewCtrl-umbrella.h in Headers */,
+				2672B2B41F64E87400DE695A /* UIViewController+SWNavigationExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +270,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2672B2AD1F64E87400DE695A /* SWNavigationController.h in Headers */,
 				9985AE9DA9FB7165AD734E49C700EC15 /* Pods-SWNavViewCtrl_Tests-umbrella.h in Headers */,
+				2672B2B31F64E87400DE695A /* UIViewController+SWNavigationExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +364,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2672B2B51F64E87400DE695A /* UIViewController+SWNavigationExtension.m in Sources */,
 				A203584FB00582BBF137290563831106 /* Pods-SWNavViewCtrl_Example-dummy.m in Sources */,
+				2672B2AF1F64E87400DE695A /* SWNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,8 +374,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A660D49603A2DBF6BE139E0AEBB6F212 /* ReplaceMe.m in Sources */,
+				2672B2B71F64E87400DE695A /* UIViewController+SWNavigationExtension.m in Sources */,
 				746A8F0FE5C2A643B199FBC7E2070232 /* SWNavViewCtrl-dummy.m in Sources */,
+				2672B2B11F64E87400DE695A /* SWNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,7 +384,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2672B2B61F64E87400DE695A /* UIViewController+SWNavigationExtension.m in Sources */,
 				A6AA59CF6639BDF98C22A0548F5467F3 /* Pods-SWNavViewCtrl_Tests-dummy.m in Sources */,
+				2672B2B01F64E87400DE695A /* SWNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
