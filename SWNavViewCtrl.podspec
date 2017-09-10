@@ -10,11 +10,18 @@ Pod::Spec.new do |s|
 一个手势返回导航栏的封装,简单实用.
                        DESC
 
-  s.homepage         = 'https://github.com/imsongwei@163.com/SWNavViewCtrl'
+
+
+
+
+
+
+
+  s.homepage         = 'https://github.com/isongwei/SWNavViewCtrl'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'imsongwei@163.com' => 'mail.com' }
-  s.source           = { :git => 'https://github.com/imsongwei@163.com/SWNavViewCtrl.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/isongwei/SWNavViewCtrl.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
