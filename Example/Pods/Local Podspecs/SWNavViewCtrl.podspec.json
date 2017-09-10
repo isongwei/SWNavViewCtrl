@@ -1,0 +1,22 @@
+{
+  "name": "SWNavViewCtrl",
+  "version": "0.1.0",
+  "summary": "A short description of SWNavViewCtrl.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/imsongwei@163.com/SWNavViewCtrl",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "imsongwei@163.com": "mail.com"
+  },
+  "source": {
+    "git": "https://github.com/imsongwei@163.com/SWNavViewCtrl.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SWNavViewCtrl/Classes/**/*"
+}

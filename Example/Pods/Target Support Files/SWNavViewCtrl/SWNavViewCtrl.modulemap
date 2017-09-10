@@ -1,0 +1,6 @@
+framework module SWNavViewCtrl {
+  umbrella header "SWNavViewCtrl-umbrella.h"
+
+  export *
+  module * { export * }
+}

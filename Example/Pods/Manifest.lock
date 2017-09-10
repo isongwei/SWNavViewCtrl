@@ -1,0 +1,16 @@
+PODS:
+  - SWNavViewCtrl (0.1.0)
+
+DEPENDENCIES:
+  - SWNavViewCtrl (from `../`)
+
+EXTERNAL SOURCES:
+  SWNavViewCtrl:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SWNavViewCtrl: 23c2874f2ed60ef31684fc672f0f180653d59351
+
+PODFILE CHECKSUM: b09b64a6f611cb11bf31f5241bfc57c870df9191
+
+COCOAPODS: 1.2.1
