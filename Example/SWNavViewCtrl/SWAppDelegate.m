@@ -10,7 +10,7 @@
 
 #import "SWViewCtrl2.h"
 #import "SWViewController.h"
-//#import "SWNavigationController.h"
+#import "SWNavigationController.h"
 
 @implementation SWAppDelegate
 
@@ -23,12 +23,13 @@
     
     SWViewController * vc = [[SWViewController alloc]init];
     vc.title = @"1";
-    UINavigationController  * nav = [[UINavigationController alloc]initWithRootViewController:vc];
-    
+    SWNavigationController  * nav = [[SWNavigationController alloc]initWithRootViewController:vc];
+    nav.fullScreenPopGestureEnabled = YES;
     
     SWViewCtrl2 * vc2 = [[SWViewCtrl2 alloc]init];
     vc2.title = @"2";
-    UINavigationController  * nav2 = [[UINavigationController alloc]initWithRootViewController:vc2];
+    SWNavigationController  * nav2 = [[SWNavigationController alloc]initWithRootViewController:vc2];
+    nav2.fullScreenPopGestureEnabled = YES;
     tab.viewControllers = @[nav,nav2];
     _window.rootViewController = tab;
     [_window makeKeyAndVisible];
