@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "SWNavigationController.h"
+#import "UIViewController+SWNavigationExtension.h"
 
 FOUNDATION_EXPORT double SWNavViewCtrlVersionNumber;
 FOUNDATION_EXPORT const unsigned char SWNavViewCtrlVersionString[];

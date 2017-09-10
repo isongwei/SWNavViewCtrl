@@ -7,26 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F8B14432CD5BE0F56364701F4AFED32 /* SWNavViewCtrl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 895EEFC86A026DAA0423690150D1193C /* SWNavViewCtrl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2672B2AC1F64E87400DE695A /* SWNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2672B2A81F64E87400DE695A /* SWNavigationController.h */; };
-		2672B2AD1F64E87400DE695A /* SWNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2672B2A81F64E87400DE695A /* SWNavigationController.h */; };
-		2672B2AE1F64E87400DE695A /* SWNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2672B2A81F64E87400DE695A /* SWNavigationController.h */; };
-		2672B2AF1F64E87400DE695A /* SWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2672B2A91F64E87400DE695A /* SWNavigationController.m */; };
-		2672B2B01F64E87400DE695A /* SWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2672B2A91F64E87400DE695A /* SWNavigationController.m */; };
-		2672B2B11F64E87400DE695A /* SWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2672B2A91F64E87400DE695A /* SWNavigationController.m */; };
-		2672B2B21F64E87400DE695A /* UIViewController+SWNavigationExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2672B2AA1F64E87400DE695A /* UIViewController+SWNavigationExtension.h */; };
-		2672B2B31F64E87400DE695A /* UIViewController+SWNavigationExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2672B2AA1F64E87400DE695A /* UIViewController+SWNavigationExtension.h */; };
-		2672B2B41F64E87400DE695A /* UIViewController+SWNavigationExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2672B2AA1F64E87400DE695A /* UIViewController+SWNavigationExtension.h */; };
-		2672B2B51F64E87400DE695A /* UIViewController+SWNavigationExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2672B2AB1F64E87400DE695A /* UIViewController+SWNavigationExtension.m */; };
-		2672B2B61F64E87400DE695A /* UIViewController+SWNavigationExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2672B2AB1F64E87400DE695A /* UIViewController+SWNavigationExtension.m */; };
-		2672B2B71F64E87400DE695A /* UIViewController+SWNavigationExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2672B2AB1F64E87400DE695A /* UIViewController+SWNavigationExtension.m */; };
+		025894AC91134393148733C59193F27C /* SWNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = C503ACA6601D787FA18CDD4EA4341C50 /* SWNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A4659B83A371B1DA4FF493244A794C9 /* backImage@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 96B1866ED3BF1F7C81B42BF493D42DC3 /* backImage@2x.png */; };
 		2C2B71F05ACF59B3EF4097F003F9153E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		2D8DAE183B91AA14EEBB4C2102202BEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		301AFC4F678E6B3288FE8BEB0E86767C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		3A03AC5E12E52A9FC40CECBE5EE572B6 /* Pods-SWNavViewCtrl_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63CAFB563CECDA7FB5E2008315C9213E /* Pods-SWNavViewCtrl_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		746A8F0FE5C2A643B199FBC7E2070232 /* SWNavViewCtrl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D9306FD272C79764FC70F4F6CCAF98 /* SWNavViewCtrl-dummy.m */; };
+		3C74FD8248A5FF437068531D3B194DEE /* SWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC3536DC90EB62D230C5BC8F5E8A59 /* SWNavigationController.m */; };
+		40AA8A2AF0C0DE2DDD317BD86CFECE40 /* SWNavViewCtrl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D9306FD272C79764FC70F4F6CCAF98 /* SWNavViewCtrl-dummy.m */; };
+		6B15630A685D904CA642308C99B4AA8E /* UIViewController+SWNavigationExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F0FD7E6BC63F0E450552FD59786857E /* UIViewController+SWNavigationExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86022190BE98B0F0B5FDA4222E8431C9 /* SWNavViewCtrl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 895EEFC86A026DAA0423690150D1193C /* SWNavViewCtrl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9985AE9DA9FB7165AD734E49C700EC15 /* Pods-SWNavViewCtrl_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 985583F329CB2FC7746977A0368C1949 /* Pods-SWNavViewCtrl_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		998840823CFB8A699AB5CBB93C8E4C49 /* UIViewController+SWNavigationExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 941CE7C7DB86F85503C59DCE8B8A4B7F /* UIViewController+SWNavigationExtension.m */; };
 		A203584FB00582BBF137290563831106 /* Pods-SWNavViewCtrl_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC13BEE8B792288402895B613A69E3FC /* Pods-SWNavViewCtrl_Example-dummy.m */; };
+		A23BF3D09F6A5628BD00892E1D1D7253 /* backImage@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 30054B9494AB7A0CB8FA18400FB7ACB6 /* backImage@3x.png */; };
 		A6AA59CF6639BDF98C22A0548F5467F3 /* Pods-SWNavViewCtrl_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D62D593A32D1094E96E3AEB62B2A943 /* Pods-SWNavViewCtrl_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -44,39 +38,39 @@
 		0C1A47AC81FAF8CCE62019D6D41EC5F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D62D593A32D1094E96E3AEB62B2A943 /* Pods-SWNavViewCtrl_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SWNavViewCtrl_Tests-dummy.m"; sourceTree = "<group>"; };
 		266A86A569000BC15A60DACBF6FB48A3 /* Pods-SWNavViewCtrl_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SWNavViewCtrl_Tests-resources.sh"; sourceTree = "<group>"; };
-		2672B2A61F64E87400DE695A /* backImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backImage@2x.png"; sourceTree = "<group>"; };
-		2672B2A71F64E87400DE695A /* backImage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backImage@3x.png"; sourceTree = "<group>"; };
-		2672B2A81F64E87400DE695A /* SWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWNavigationController.h; sourceTree = "<group>"; };
-		2672B2A91F64E87400DE695A /* SWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWNavigationController.m; sourceTree = "<group>"; };
-		2672B2AA1F64E87400DE695A /* UIViewController+SWNavigationExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SWNavigationExtension.h"; sourceTree = "<group>"; };
-		2672B2AB1F64E87400DE695A /* UIViewController+SWNavigationExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SWNavigationExtension.m"; sourceTree = "<group>"; };
+		2BCC3536DC90EB62D230C5BC8F5E8A59 /* SWNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SWNavigationController.m; sourceTree = "<group>"; };
 		2D574737A4498AC07398935E6D02424C /* Pods-SWNavViewCtrl_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SWNavViewCtrl_Example-resources.sh"; sourceTree = "<group>"; };
+		30054B9494AB7A0CB8FA18400FB7ACB6 /* backImage@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "backImage@3x.png"; sourceTree = "<group>"; };
 		366296E147A80754295E006117AB830C /* Pods-SWNavViewCtrl_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SWNavViewCtrl_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		38D9306FD272C79764FC70F4F6CCAF98 /* SWNavViewCtrl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWNavViewCtrl-dummy.m"; sourceTree = "<group>"; };
 		3B2E471B095CE41F251E450A85DC1C8E /* Pods-SWNavViewCtrl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SWNavViewCtrl_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3E137938EEA3C47E4C10136AD8F60E3F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0FD7E6BC63F0E450552FD59786857E /* UIViewController+SWNavigationExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SWNavigationExtension.h"; sourceTree = "<group>"; };
 		5617CE12B1DE256B2DC4B161DCA0F4FA /* Pods-SWNavViewCtrl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SWNavViewCtrl_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		599135654EB4F10023659B706F619670 /* Pods-SWNavViewCtrl_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SWNavViewCtrl_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5A1C68D8FA11556DACEFBA00CAEE438A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61F6834E161F9260972B14816E3B26CF /* Pods-SWNavViewCtrl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SWNavViewCtrl_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		63CAFB563CECDA7FB5E2008315C9213E /* Pods-SWNavViewCtrl_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SWNavViewCtrl_Example-umbrella.h"; sourceTree = "<group>"; };
 		6492AAA1E371B16D1019D126CE4C1D1C /* Pods-SWNavViewCtrl_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SWNavViewCtrl_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		64F55EC78908E4AE1E976364D94E08E2 /* Pods-SWNavViewCtrl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SWNavViewCtrl_Example.modulemap"; sourceTree = "<group>"; };
+		64F55EC78908E4AE1E976364D94E08E2 /* Pods-SWNavViewCtrl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SWNavViewCtrl_Example.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7D82C167D21DD3E0A6C6B6A570B66CF7 /* Pods-SWNavViewCtrl_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SWNavViewCtrl_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		895EEFC86A026DAA0423690150D1193C /* SWNavViewCtrl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWNavViewCtrl-umbrella.h"; sourceTree = "<group>"; };
 		9179A95D188AA19E8AC1C0D483F8BF38 /* SWNavViewCtrl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWNavViewCtrl.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		941CE7C7DB86F85503C59DCE8B8A4B7F /* UIViewController+SWNavigationExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SWNavigationExtension.m"; sourceTree = "<group>"; };
+		96B1866ED3BF1F7C81B42BF493D42DC3 /* backImage@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "backImage@2x.png"; sourceTree = "<group>"; };
 		985583F329CB2FC7746977A0368C1949 /* Pods-SWNavViewCtrl_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SWNavViewCtrl_Tests-umbrella.h"; sourceTree = "<group>"; };
 		99DA760A889C7C964015CDC237F47080 /* Pods-SWNavViewCtrl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SWNavViewCtrl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A4BBC4F2FE67B18B3F14A526C374ABE5 /* Pods_SWNavViewCtrl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWNavViewCtrl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A730540816AC5F1CE3AF69BE5823D254 /* SWNavViewCtrl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SWNavViewCtrl.modulemap; sourceTree = "<group>"; };
+		A4BBC4F2FE67B18B3F14A526C374ABE5 /* Pods_SWNavViewCtrl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SWNavViewCtrl_Tests.framework; path = "Pods-SWNavViewCtrl_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A730540816AC5F1CE3AF69BE5823D254 /* SWNavViewCtrl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SWNavViewCtrl.modulemap; sourceTree = "<group>"; };
 		AC13BEE8B792288402895B613A69E3FC /* Pods-SWNavViewCtrl_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SWNavViewCtrl_Example-dummy.m"; sourceTree = "<group>"; };
 		AE3F27FF8C6B7F1BA33F7A8DB31AE693 /* Pods-SWNavViewCtrl_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SWNavViewCtrl_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D6639CA1F8C683F35C76C0B9BE94B9CA /* Pods_SWNavViewCtrl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWNavViewCtrl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E34BA4698E1A99E92AE6F6703099338A /* SWNavViewCtrl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWNavViewCtrl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C503ACA6601D787FA18CDD4EA4341C50 /* SWNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SWNavigationController.h; sourceTree = "<group>"; };
+		D6639CA1F8C683F35C76C0B9BE94B9CA /* Pods_SWNavViewCtrl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SWNavViewCtrl_Example.framework; path = "Pods-SWNavViewCtrl_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E34BA4698E1A99E92AE6F6703099338A /* SWNavViewCtrl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SWNavViewCtrl.framework; path = SWNavViewCtrl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB1666C87BF82EC5F2D18A5CA7F5C2D1 /* Pods-SWNavViewCtrl_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SWNavViewCtrl_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F14F1B504AC3B72ABC364FF70AAD7FD6 /* Pods-SWNavViewCtrl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SWNavViewCtrl_Tests.modulemap"; sourceTree = "<group>"; };
+		F14F1B504AC3B72ABC364FF70AAD7FD6 /* Pods-SWNavViewCtrl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SWNavViewCtrl_Tests.modulemap"; sourceTree = "<group>"; };
 		F155F684722F2D4B85E8ED2DBA6C8127 /* SWNavViewCtrl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWNavViewCtrl-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,7 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				B8908BBD163953CA1E75DBABA88B43B8 /* Support Files */,
-				E39A0F93A9AA6F4C80C9BA69FD83BD72 /* SWNavViewCtrl */,
+				7C1B825FEA32165F89DF10BCCAA6A678 /* SWNavViewCtrl */,
 			);
 			name = SWNavViewCtrl;
 			path = ../..;
@@ -154,6 +148,15 @@
 			path = "Target Support Files/Pods-SWNavViewCtrl_Example";
 			sourceTree = "<group>";
 		};
+		7C1B825FEA32165F89DF10BCCAA6A678 /* SWNavViewCtrl */ = {
+			isa = PBXGroup;
+			children = (
+				C2CEE2DF2622A58C7158C699D14EBF4B /* Classes */,
+			);
+			name = SWNavViewCtrl;
+			path = SWNavViewCtrl;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -163,19 +166,6 @@
 				1C7A9988D0BF431D062187A9770A7799 /* Products */,
 				989F95814367E8CF1B22B8760BDEB596 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		9423F8EAA660F9F49A37F300C4AB298A /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				2672B2A61F64E87400DE695A /* backImage@2x.png */,
-				2672B2A71F64E87400DE695A /* backImage@3x.png */,
-				2672B2A81F64E87400DE695A /* SWNavigationController.h */,
-				2672B2A91F64E87400DE695A /* SWNavigationController.m */,
-				2672B2AA1F64E87400DE695A /* UIViewController+SWNavigationExtension.h */,
-				2672B2AB1F64E87400DE695A /* UIViewController+SWNavigationExtension.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		989F95814367E8CF1B22B8760BDEB596 /* Targets Support Files */ = {
@@ -209,20 +199,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C2CEE2DF2622A58C7158C699D14EBF4B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				96B1866ED3BF1F7C81B42BF493D42DC3 /* backImage@2x.png */,
+				30054B9494AB7A0CB8FA18400FB7ACB6 /* backImage@3x.png */,
+				C503ACA6601D787FA18CDD4EA4341C50 /* SWNavigationController.h */,
+				2BCC3536DC90EB62D230C5BC8F5E8A59 /* SWNavigationController.m */,
+				3F0FD7E6BC63F0E450552FD59786857E /* UIViewController+SWNavigationExtension.h */,
+				941CE7C7DB86F85503C59DCE8B8A4B7F /* UIViewController+SWNavigationExtension.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		E39A0F93A9AA6F4C80C9BA69FD83BD72 /* SWNavViewCtrl */ = {
-			isa = PBXGroup;
-			children = (
-				9423F8EAA660F9F49A37F300C4AB298A /* Classes */,
-			);
-			path = SWNavViewCtrl;
 			sourceTree = "<group>";
 		};
 		E9786D0A12DA6D64884471C0091D383E /* Pods-SWNavViewCtrl_Tests */ = {
@@ -250,19 +246,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2672B2AC1F64E87400DE695A /* SWNavigationController.h in Headers */,
 				3A03AC5E12E52A9FC40CECBE5EE572B6 /* Pods-SWNavViewCtrl_Example-umbrella.h in Headers */,
-				2672B2B21F64E87400DE695A /* UIViewController+SWNavigationExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5977B51A7931134A2BC39F421D456C83 /* Headers */ = {
+		38FEC431088A7CBE259AF784C90322E2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2672B2AE1F64E87400DE695A /* SWNavigationController.h in Headers */,
-				0F8B14432CD5BE0F56364701F4AFED32 /* SWNavViewCtrl-umbrella.h in Headers */,
-				2672B2B41F64E87400DE695A /* UIViewController+SWNavigationExtension.h in Headers */,
+				025894AC91134393148733C59193F27C /* SWNavigationController.h in Headers */,
+				86022190BE98B0F0B5FDA4222E8431C9 /* SWNavViewCtrl-umbrella.h in Headers */,
+				6B15630A685D904CA642308C99B4AA8E /* UIViewController+SWNavigationExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +264,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2672B2AD1F64E87400DE695A /* SWNavigationController.h in Headers */,
 				9985AE9DA9FB7165AD734E49C700EC15 /* Pods-SWNavViewCtrl_Tests-umbrella.h in Headers */,
-				2672B2B31F64E87400DE695A /* UIViewController+SWNavigationExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,9 +310,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CC61B85CA374302CB2CD02F7287E511 /* Build configuration list for PBXNativeTarget "SWNavViewCtrl" */;
 			buildPhases = (
-				52F56157318AE2303EA3B994F711C8A0 /* Sources */,
+				2981287BA54FFD144983A55439A2CA41 /* Sources */,
 				CC5487446816B05B295D222B578171C3 /* Frameworks */,
-				5977B51A7931134A2BC39F421D456C83 /* Headers */,
+				38FEC431088A7CBE259AF784C90322E2 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -364,19 +356,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2672B2B51F64E87400DE695A /* UIViewController+SWNavigationExtension.m in Sources */,
 				A203584FB00582BBF137290563831106 /* Pods-SWNavViewCtrl_Example-dummy.m in Sources */,
-				2672B2AF1F64E87400DE695A /* SWNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52F56157318AE2303EA3B994F711C8A0 /* Sources */ = {
+		2981287BA54FFD144983A55439A2CA41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2672B2B71F64E87400DE695A /* UIViewController+SWNavigationExtension.m in Sources */,
-				746A8F0FE5C2A643B199FBC7E2070232 /* SWNavViewCtrl-dummy.m in Sources */,
-				2672B2B11F64E87400DE695A /* SWNavigationController.m in Sources */,
+				0A4659B83A371B1DA4FF493244A794C9 /* backImage@2x.png in Sources */,
+				A23BF3D09F6A5628BD00892E1D1D7253 /* backImage@3x.png in Sources */,
+				3C74FD8248A5FF437068531D3B194DEE /* SWNavigationController.m in Sources */,
+				40AA8A2AF0C0DE2DDD317BD86CFECE40 /* SWNavViewCtrl-dummy.m in Sources */,
+				998840823CFB8A699AB5CBB93C8E4C49 /* UIViewController+SWNavigationExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,9 +376,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2672B2B61F64E87400DE695A /* UIViewController+SWNavigationExtension.m in Sources */,
 				A6AA59CF6639BDF98C22A0548F5467F3 /* Pods-SWNavViewCtrl_Tests-dummy.m in Sources */,
-				2672B2B01F64E87400DE695A /* SWNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,42 +392,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		04D4B20B9894E582667907D3D75FA794 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61F6834E161F9260972B14816E3B26CF /* Pods-SWNavViewCtrl_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SWNavViewCtrl_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SWNavViewCtrl_Tests/Pods-SWNavViewCtrl_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SWNavViewCtrl_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		1253427A38E5B1EA2540D2801734AF8D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9179A95D188AA19E8AC1C0D483F8BF38 /* SWNavViewCtrl.xcconfig */;
@@ -470,7 +424,195 @@
 			};
 			name = Debug;
 		};
-		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3887B5BE6ABC9F655863D1A47C504C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61F6834E161F9260972B14816E3B26CF /* Pods-SWNavViewCtrl_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SWNavViewCtrl_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SWNavViewCtrl_Tests/Pods-SWNavViewCtrl_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SWNavViewCtrl_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		634E7ED298932AD4B5744F3758EFCE41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B2E471B095CE41F251E450A85DC1C8E /* Pods-SWNavViewCtrl_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SWNavViewCtrl_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SWNavViewCtrl_Example/Pods-SWNavViewCtrl_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SWNavViewCtrl_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C0224EA716C4FEA54FB817933C93D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5617CE12B1DE256B2DC4B161DCA0F4FA /* Pods-SWNavViewCtrl_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SWNavViewCtrl_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SWNavViewCtrl_Example/Pods-SWNavViewCtrl_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SWNavViewCtrl_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ABDB387F3DEA81BCAAE7FEED0B45737C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99DA760A889C7C964015CDC237F47080 /* Pods-SWNavViewCtrl_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SWNavViewCtrl_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SWNavViewCtrl_Tests/Pods-SWNavViewCtrl_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SWNavViewCtrl_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -510,165 +652,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		BCF159A469EC1E40C23FEB1595B248AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99DA760A889C7C964015CDC237F47080 /* Pods-SWNavViewCtrl_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SWNavViewCtrl_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SWNavViewCtrl_Tests/Pods-SWNavViewCtrl_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SWNavViewCtrl_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C20BA1376AE096581CC14A63F79B0CBF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5617CE12B1DE256B2DC4B161DCA0F4FA /* Pods-SWNavViewCtrl_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SWNavViewCtrl_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SWNavViewCtrl_Example/Pods-SWNavViewCtrl_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SWNavViewCtrl_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C5DC96ECFFB3009EF768DF4D44950664 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B2E471B095CE41F251E450A85DC1C8E /* Pods-SWNavViewCtrl_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SWNavViewCtrl_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SWNavViewCtrl_Example/Pods-SWNavViewCtrl_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SWNavViewCtrl_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		F2E2AD8ABCAE52BFC1B53FEB9348082C /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -708,8 +698,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
-				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+				C104F7F091290C3D1E248192F07FE689 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -717,8 +707,8 @@
 		2E3E6D8E6B99B596C6D76F333B9E7670 /* Build configuration list for PBXNativeTarget "Pods-SWNavViewCtrl_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C20BA1376AE096581CC14A63F79B0CBF /* Debug */,
-				C5DC96ECFFB3009EF768DF4D44950664 /* Release */,
+				8C0224EA716C4FEA54FB817933C93D83 /* Debug */,
+				634E7ED298932AD4B5744F3758EFCE41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -726,8 +716,8 @@
 		30D7C1A1FA23D7BE10097019C2280700 /* Build configuration list for PBXNativeTarget "Pods-SWNavViewCtrl_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BCF159A469EC1E40C23FEB1595B248AA /* Debug */,
-				04D4B20B9894E582667907D3D75FA794 /* Release */,
+				ABDB387F3DEA81BCAAE7FEED0B45737C /* Debug */,
+				3887B5BE6ABC9F655863D1A47C504C9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

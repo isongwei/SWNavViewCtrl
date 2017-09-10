@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		17C56FF2CBBCBBC9AC82F603 /* Pods_SWNavViewCtrl_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9E1401A155BB354B7B59EF /* Pods_SWNavViewCtrl_Example.framework */; };
+		2672B2BB1F64EC0900DE695A /* SWViewCtrl2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2672B2B91F64EC0900DE695A /* SWViewCtrl2.m */; };
+		2672B2BC1F64EC0900DE695A /* SWViewCtrl2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2672B2BA1F64EC0900DE695A /* SWViewCtrl2.xib */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,6 +40,9 @@
 
 /* Begin PBXFileReference section */
 		20B87B964A475FD75EA00F4A /* Pods-SWNavViewCtrl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWNavViewCtrl_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWNavViewCtrl_Tests/Pods-SWNavViewCtrl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2672B2B81F64EC0900DE695A /* SWViewCtrl2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWViewCtrl2.h; sourceTree = "<group>"; };
+		2672B2B91F64EC0900DE695A /* SWViewCtrl2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWViewCtrl2.m; sourceTree = "<group>"; };
+		2672B2BA1F64EC0900DE695A /* SWViewCtrl2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWViewCtrl2.xib; sourceTree = "<group>"; };
 		2FF2CF7FF2AFA350665457C6 /* Pods_SWNavViewCtrl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWNavViewCtrl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* SWNavViewCtrl_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWNavViewCtrl_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,13 +64,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		755AC5340376559AAD1E600A /* SWNavViewCtrl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SWNavViewCtrl.podspec; path = ../SWNavViewCtrl.podspec; sourceTree = "<group>"; };
+		755AC5340376559AAD1E600A /* SWNavViewCtrl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SWNavViewCtrl.podspec; path = ../SWNavViewCtrl.podspec; sourceTree = "<group>"; };
 		759B2795412B046C982DB822 /* Pods-SWNavViewCtrl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWNavViewCtrl_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWNavViewCtrl_Example/Pods-SWNavViewCtrl_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8A82FB4491F8DEDD673A0E36 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8A82FB4491F8DEDD673A0E36 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		96CF7B304879CA77F38A741D /* Pods-SWNavViewCtrl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWNavViewCtrl_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWNavViewCtrl_Example/Pods-SWNavViewCtrl_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DD9E1401A155BB354B7B59EF /* Pods_SWNavViewCtrl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWNavViewCtrl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF6C01873FB377AD3F27D93C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DF6C01873FB377AD3F27D93C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E1CEDF240A279A7839E54D04 /* Pods-SWNavViewCtrl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWNavViewCtrl_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWNavViewCtrl_Tests/Pods-SWNavViewCtrl_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +137,9 @@
 		6003F593195388D20070C39A /* Example for SWNavViewCtrl */ = {
 			isa = PBXGroup;
 			children = (
+				2672B2B81F64EC0900DE695A /* SWViewCtrl2.h */,
+				2672B2B91F64EC0900DE695A /* SWViewCtrl2.m */,
+				2672B2BA1F64EC0900DE695A /* SWViewCtrl2.xib */,
 				6003F59C195388D20070C39A /* SWAppDelegate.h */,
 				6003F59D195388D20070C39A /* SWAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -279,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2672B2BC1F64EC0900DE695A /* SWViewCtrl2.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -394,6 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2672B2BB1F64EC0900DE695A /* SWViewCtrl2.m in Sources */,
 				6003F59E195388D20070C39A /* SWAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* SWViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -527,9 +537,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SWNavViewCtrl/SWNavViewCtrl-Prefix.pch";
 				INFOPLIST_FILE = "SWNavViewCtrl/SWNavViewCtrl-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -542,9 +554,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SWNavViewCtrl/SWNavViewCtrl-Prefix.pch";
 				INFOPLIST_FILE = "SWNavViewCtrl/SWNavViewCtrl-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
