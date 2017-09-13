@@ -21,4 +21,8 @@
 //@property (nonatomic, weak) SWWrapNavigationController *navigationController_real;
 
 
+@property (nonatomic,assign) CGFloat  navBarBgAlpha;
+//@property (nonatomic,strong) UIColor *  navBarTintColor;
+
+
 @end

@@ -7,7 +7,7 @@
 //
 
 #import "SWViewCtrl2.h"
-#import "SWViewController.h"
+#import "SWViewCtrl3.h"
 
 @interface SWViewCtrl2 ()
 
@@ -27,7 +27,7 @@
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     
     
-    [self.navigationController pushViewController:[[SWViewController alloc]init] animated:YES];
+    [self.navigationController pushViewController:[[SWViewCtrl3 alloc]init] animated:YES];
     
 }
 

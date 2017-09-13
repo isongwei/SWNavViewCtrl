@@ -45,7 +45,45 @@
 //}
 
 
+-(CGFloat)navBarBgAlpha{
+    return [objc_getAssociatedObject(self, _cmd) floatValue];
+}
+-(void)setNavBarBgAlpha:(CGFloat)navBarBgAlpha{
+    objc_setAssociatedObject(self, @selector(navBarBgAlpha), @(navBarBgAlpha), OBJC_ASSOCIATION_RETAIN);
+    if (self.navigationController) {
+        self.navigationController.navigationBar.translucent = NO;
+        [self.navigationController.navigationBar setBackgroundImage:[[UIImage alloc]init] forBarMetrics:UIBarMetricsDefault];
+        
+        //清除边框，设置一张空的图片
+        [self.navigationController.navigationBar setShadowImage:[[UIImage alloc]init]];
+        
+        self.navigationController.navigationBar.alpha = navBarBgAlpha;
+    }
+}
 
+
+//-(UIColor *)navBarTintColor{
+//    
+//    return objc_getAssociatedObject(self, _cmd);
+//    
+//}
+//
+//-(void)setNavBarTintColor:(UIColor *)navBarTintColor{
+//    
+//    objc_setAssociatedObject(self, @selector(navBarTintColor), navBarTintColor, OBJC_ASSOCIATION_ASSIGN);
+//    
+//    if (self.navigationController) {
+//        self.navigationController.navigationBar.translucent = NO;
+//        //清除边框，设置一张空的图片
+//        [self.navigationController.navigationBar setShadowImage:[[UIImage alloc]init]];
+//        [self.navigationController.navigationBar setBackgroundImage:[[UIImage alloc]init] forBarMetrics:UIBarMetricsDefault];
+//
+//
+//        
+//        self.navigationController.navigationBar.barTintColor = navBarTintColor;
+//    }
+//    
+//}
 
 
 @end

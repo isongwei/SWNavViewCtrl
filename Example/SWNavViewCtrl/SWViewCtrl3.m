@@ -21,8 +21,15 @@
     self.view.backgroundColor = [UIColor grayColor];
     self.title = @"3";
     
+    UIButton * btn = [[UIButton alloc]initWithFrame:(CGRectMake(0, 100, 100, 50))];
+    btn.backgroundColor = [UIColor redColor];
+    [btn addTarget:self action:@selector(ttt) forControlEvents:(UIControlEventTouchUpInside)];
+    [self.view addSubview:btn];
+}
+
+-(void)ttt{
     
-    
+    [self.navigationController pushViewController:[[SWViewCtrl3 alloc]init] animated:YES];
 }
 
 

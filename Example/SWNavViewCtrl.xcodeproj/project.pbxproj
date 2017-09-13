@@ -24,9 +24,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		ABB83F1318B69F01B646493B /* Pods_SWNavViewCtrl_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FF2CF7FF2AFA350665457C6 /* Pods_SWNavViewCtrl_Tests.framework */; };
 		F93626651F68E07B00AD0B23 /* SWViewCtrl3.m in Sources */ = {isa = PBXBuildFile; fileRef = F93626641F68E07B00AD0B23 /* SWViewCtrl3.m */; };
+		F93626671F691FF500AD0B23 /* SWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F93626661F691FF500AD0B23 /* SWViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +67,6 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		755AC5340376559AAD1E600A /* SWNavViewCtrl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SWNavViewCtrl.podspec; path = ../SWNavViewCtrl.podspec; sourceTree = "<group>"; };
 		759B2795412B046C982DB822 /* Pods-SWNavViewCtrl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWNavViewCtrl_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWNavViewCtrl_Example/Pods-SWNavViewCtrl_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A82FB4491F8DEDD673A0E36 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		96CF7B304879CA77F38A741D /* Pods-SWNavViewCtrl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWNavViewCtrl_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWNavViewCtrl_Example/Pods-SWNavViewCtrl_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DD9E1401A155BB354B7B59EF /* Pods_SWNavViewCtrl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWNavViewCtrl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +74,7 @@
 		E1CEDF240A279A7839E54D04 /* Pods-SWNavViewCtrl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWNavViewCtrl_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWNavViewCtrl_Tests/Pods-SWNavViewCtrl_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F93626631F68E07B00AD0B23 /* SWViewCtrl3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWViewCtrl3.h; sourceTree = "<group>"; };
 		F93626641F68E07B00AD0B23 /* SWViewCtrl3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWViewCtrl3.m; sourceTree = "<group>"; };
+		F93626661F691FF500AD0B23 /* SWViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +150,7 @@
 				2672B2B91F64EC0900DE695A /* SWViewCtrl2.m */,
 				6003F5A5195388D20070C39A /* SWViewController.h */,
 				6003F5A6195388D20070C39A /* SWViewController.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				F93626661F691FF500AD0B23 /* SWViewController.xib */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for SWNavViewCtrl";
@@ -293,9 +293,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				F93626671F691FF500AD0B23 /* SWViewController.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

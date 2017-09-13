@@ -8,8 +8,9 @@
 
 #import "SWViewController.h"
 #import "SWViewCtrl3.h"
+#import "UIViewController+SWNavigationExtension.h"
 
-@interface SWViewController ()
+@interface SWViewController ()<UITableViewDelegate>
 
 @end
 
@@ -19,16 +20,29 @@
 {
     [super viewDidLoad];
     self.navigationController.navigationBar.barTintColor = [UIColor blueColor];
-    self.view.backgroundColor = [UIColor greenColor];
+    
     self.title=@"1";
 
 }
 
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+
+-(void)scrollViewDidScroll:(UIScrollView *)scrollView{
     
-    [self.navigationController pushViewController:[[SWViewCtrl3 alloc]init] animated:YES];
+    float n = scrollView.contentOffset.y/150.0;
+    
+    n < 0?n=0:n;
+    n>1?n=1:n;
+    
+    self.navBarBgAlpha = 1-n;
+//    self.navBarTintColor = [UIColor colorWithWhite:0 alpha:n];
+    
+    NSLog(@"%f",n);
+    
+    
+    
     
 }
+
 
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
