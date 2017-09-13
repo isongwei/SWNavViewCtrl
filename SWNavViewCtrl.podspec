@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SWNavViewCtrl'
-  s.version          = '0.1.0'
+  s.version          = '0.2'
   s.summary          = '一个手势返回导航栏的封装.'
 
 
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'SWNavViewCtrl/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'SWNavViewCtrl' => ['SWNavViewCtrl/Assets/*.png']
   # }
