@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		17C56FF2CBBCBBC9AC82F603 /* Pods_SWNavViewCtrl_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9E1401A155BB354B7B59EF /* Pods_SWNavViewCtrl_Example.framework */; };
 		2672B2BB1F64EC0900DE695A /* SWViewCtrl2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2672B2B91F64EC0900DE695A /* SWViewCtrl2.m */; };
-		2672B2BC1F64EC0900DE695A /* SWViewCtrl2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2672B2BA1F64EC0900DE695A /* SWViewCtrl2.xib */; };
 		2672B2BE1F64EEDA00DE695A /* SWNavViewCtrl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2672B2BD1F64EEDA00DE695A /* SWNavViewCtrl.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -27,6 +26,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		ABB83F1318B69F01B646493B /* Pods_SWNavViewCtrl_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FF2CF7FF2AFA350665457C6 /* Pods_SWNavViewCtrl_Tests.framework */; };
+		F93626651F68E07B00AD0B23 /* SWViewCtrl3.m in Sources */ = {isa = PBXBuildFile; fileRef = F93626641F68E07B00AD0B23 /* SWViewCtrl3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,6 @@
 		20B87B964A475FD75EA00F4A /* Pods-SWNavViewCtrl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWNavViewCtrl_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWNavViewCtrl_Tests/Pods-SWNavViewCtrl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2672B2B81F64EC0900DE695A /* SWViewCtrl2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWViewCtrl2.h; sourceTree = "<group>"; };
 		2672B2B91F64EC0900DE695A /* SWViewCtrl2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWViewCtrl2.m; sourceTree = "<group>"; };
-		2672B2BA1F64EC0900DE695A /* SWViewCtrl2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWViewCtrl2.xib; sourceTree = "<group>"; };
 		2672B2BD1F64EEDA00DE695A /* SWNavViewCtrl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SWNavViewCtrl.framework; path = "../../Library/Developer/Xcode/DerivedData/SWNavViewCtrl-cnrxieitiwdhwdbbkjxsbneovqhz/Build/Products/Debug-iphonesimulator/SWNavViewCtrl/SWNavViewCtrl.framework"; sourceTree = "<group>"; };
 		2FF2CF7FF2AFA350665457C6 /* Pods_SWNavViewCtrl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWNavViewCtrl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* SWNavViewCtrl_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWNavViewCtrl_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +73,8 @@
 		DD9E1401A155BB354B7B59EF /* Pods_SWNavViewCtrl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWNavViewCtrl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF6C01873FB377AD3F27D93C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E1CEDF240A279A7839E54D04 /* Pods-SWNavViewCtrl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWNavViewCtrl_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWNavViewCtrl_Tests/Pods-SWNavViewCtrl_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F93626631F68E07B00AD0B23 /* SWViewCtrl3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWViewCtrl3.h; sourceTree = "<group>"; };
+		F93626641F68E07B00AD0B23 /* SWViewCtrl3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWViewCtrl3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,16 +142,15 @@
 		6003F593195388D20070C39A /* Example for SWNavViewCtrl */ = {
 			isa = PBXGroup;
 			children = (
-				2672B2B81F64EC0900DE695A /* SWViewCtrl2.h */,
-				2672B2B91F64EC0900DE695A /* SWViewCtrl2.m */,
-				2672B2BA1F64EC0900DE695A /* SWViewCtrl2.xib */,
 				6003F59C195388D20070C39A /* SWAppDelegate.h */,
 				6003F59D195388D20070C39A /* SWAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				F93626631F68E07B00AD0B23 /* SWViewCtrl3.h */,
+				F93626641F68E07B00AD0B23 /* SWViewCtrl3.m */,
+				2672B2B81F64EC0900DE695A /* SWViewCtrl2.h */,
+				2672B2B91F64EC0900DE695A /* SWViewCtrl2.m */,
 				6003F5A5195388D20070C39A /* SWViewController.h */,
 				6003F5A6195388D20070C39A /* SWViewController.m */,
-				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for SWNavViewCtrl";
@@ -160,6 +160,8 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F595195388D20070C39A /* SWNavViewCtrl-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
@@ -291,7 +293,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2672B2BC1F64EC0900DE695A /* SWViewCtrl2.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -409,6 +410,7 @@
 			files = (
 				2672B2BB1F64EC0900DE695A /* SWViewCtrl2.m in Sources */,
 				6003F59E195388D20070C39A /* SWAppDelegate.m in Sources */,
+				F93626651F68E07B00AD0B23 /* SWViewCtrl3.m in Sources */,
 				6003F5A7195388D20070C39A /* SWViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

@@ -9,6 +9,7 @@
 #import "SWAppDelegate.h"
 
 #import "SWViewCtrl2.h"
+#import "SWViewCtrl3.h"
 #import "SWViewController.h"
 #import "SWNavigationController.h"
 
@@ -30,6 +31,12 @@
     vc2.title = @"2";
     SWNavigationController  * nav2 = [[SWNavigationController alloc]initWithRootViewController:vc2];
     nav2.fullScreenPopGestureEnabled = YES;
+    
+    
+    
+    
+    
+    
     tab.viewControllers = @[nav,nav2];
     _window.rootViewController = tab;
     [_window makeKeyAndVisible];

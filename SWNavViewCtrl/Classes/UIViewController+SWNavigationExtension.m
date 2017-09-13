@@ -34,7 +34,7 @@
 }
 
 
-//
+
 //-(SWWrapNavigationController *)navigationController_real{
 //    return objc_getAssociatedObject(self, _cmd);
 //}
@@ -43,6 +43,8 @@
 //    
 //        objc_setAssociatedObject(self, @selector(navigationController_real), navigationController_real, OBJC_ASSOCIATION_ASSIGN);
 //}
+
+
 
 
 
